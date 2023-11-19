@@ -52,7 +52,7 @@ public static class Registration {
     }
 
     public static RegistrationDto getUser(String status) {
-        var user = new RegistrationDto(getRandomLogin(), DataGenerator.getRandomPassword() ,status);
+        var user = new RegistrationDto(getRandomLogin(), DataGenerator.getRandomPassword(),status);
         return user;
     }
 
